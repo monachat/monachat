@@ -1,0 +1,34 @@
+{
+  "name": "monachat",
+  "version": "0.1.0",
+  "description": "Monachat server and client for Node.js",
+  "main": "lib/Monachat.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monachat/monachat.git"
+  },
+  "keywords": [
+    "monachat",
+    "mojachat"
+  ],
+  "author": "Yuuki Konno",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/monachat/monachat/issues"
+  },
+  "homepage": "https://github.com/monachat/monachat#readme",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "xmlsocket": "^0.3.0"
+  }
+}
