@@ -1,10 +1,10 @@
 {
   "name": "monachat",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Monachat server and client for Node.js",
   "main": "lib/Monachat.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "sudo node --experimental-modules test/server.mjs"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "prettier": "^1.18.2"
   },
   "dependencies": {
+    "2ch-trip": "^1.0.1",
     "xmlsocket": "^0.3.0"
   }
 }
